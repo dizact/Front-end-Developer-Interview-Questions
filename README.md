@@ -52,21 +52,32 @@
 ## HTML-Specific Questions:
 
 * What's a `doctype` do, and how many can you name? 
+	* Doctype tells the browser what kind of document is being loaded - knows what to support. 1
 * What's the difference between standards mode and quirks mode? 
+	* CSS box model is rendered the old way (incorrectly)
 * What are the limitations when serving XHTML pages? 
 	* Are there any problems with serving pages as `application/xhtml+xml`?  
+ 		* page is rendered like xml which is more strict (no upper-case tags). IE7 and lower just render as html
 * How do you serve a page with content in multiple languages? 
 * Can you use XHTML syntax in HTML5? How do you use XML in HTML5? 
+	* YEs, but you have to return as application/xml or applicaton/html+xml
 * What are `data-` attributes good for? 
+	* They are good for adding data to tags when not using standard attributes
 * What are the content models in HTML4 and are they different in HTML5? 
+	* Used to just be inline and block. Now there are more fine-grained: text-level, group, forms
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5? 
+	* html4, 
 * Describe the difference between cookies, sessionStorage and localStorage.  
+	* cookie is stored in the browser, sessions are stored on the server, and local storage is a key pair value local storage by app
 
 ## JS-Specific Questions
 
 * Which JavaScript libraries have you used? 
+	* jquery, handlebars, knockoutjs
 * How is JavaScript different from Java? 
+	* smaller, simpler, relies on html (cannot stand alone)
 * What are `undefined` and `undeclared` variables? 
+	* undefined is when the value can be undefined, undeclared is the var was not created
 * What is a closure, and how/why would you use one? 
 	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
 * What's a typical use case for anonymous functions? 
