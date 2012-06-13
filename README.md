@@ -19,14 +19,21 @@
 * What version control systems have you used? 
 	* Git, svn, mercurial
 * What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
-* Can you describe your workflow when you create a web page? 
+	* mac, submlime text 2, coda 2, chrome, weinry, node
+* Can you describe your workflow when you create a web page?
+	* Use print out to find common styles themes in the design, Find common aspects and create 'templates'. 
 * Can you describe the difference between progressive enhancement and graceful degradation? 
 	* Bonus points for the answer "no one can" 
 	* Extra bonus points for describing feature detection  
+ 		* Graceful degredation is developing for newer browsers, but also letting older browsers will work with basic functionality. Example: using rounded corners on browsers that support it, but letting the corners be squre in <= IE8
+   		* Progressive Enhancement is like Graceful degredation only backwards. Building for a specific level, and then using browser detection to load/do more.
 * Explain what "Semantic HTML" means. 
+	* Semantic HTML means to use items for what they are supposed to be used for. Tables are for data, not for layout. Using a definition list where appropriate, list items where appropriate...
 * What does "minification" do? 
+	* removes white space, removes comments, some minification techniques simplify the code to make it smaller
 * Why is it better to serve site assets from multiple domains? 
 	* How many resources will a browser download from a given domain at a time?  
+ 		* The resources can be downloaded faster and more at once. A broser will download 2 item simultaniously from a domain. (newer browsers can do more) More locations to download from, the faster/more that can be loaded at the same time.
 * If you have 8 different stylesheets for a given design, how would you integrate them into the site? 
 	* Looking for file concatenation.
 	* Points off for `@import`, unless it works in conjunction with a build system.  
@@ -35,8 +42,11 @@
 * Write a simple slideshow page 
 	* Bonus points if it does not use JS.  
 * What tools do you use to test your code's performance? 
+	* page speed, monitor tab
 * If you could master one technology this year, what would it be? 
+	* node or ruby
 * Name 3 ways to decrease page load. (perceived or actual load time) 
+	* Put javascript files at the bottom. Lazy load images, or load after rest of page has loaded, optimize images, decrease https requests
 * Explain the importance of standards.  
 
 ## HTML-Specific Questions:
