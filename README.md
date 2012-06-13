@@ -10,10 +10,14 @@
 
 * Are you on Twitter? 
 	* If so, who do you follow on Twitter?
+ 		*@dggodfrey - paul irish, chris coyier, jeffery way, smashing mag, nettuts, iandstewart, cameronmoll
 * Are you on GitHub? 
 	* If so, what are some examples of repos you follow  
+ 		*dizact - html5 boilerplate, nginx server config, front-end questions
 * What blogs do you follow? 
+	*nettuts, javascript weekly, hacker newsletter, thor newsletter
 * What version control systems have you used? 
+	*Git, svn, mercurial
 * What is your preferred development environment? (OS, Editor, Browsers, Tools etc.) 
 * Can you describe your workflow when you create a web page? 
 * Can you describe the difference between progressive enhancement and graceful degradation? 
