@@ -81,11 +81,13 @@
 * What is a closure, and how/why would you use one? 
 	* Your favorite pattern used to create them? argyle (Only applicable to IIFEs)  
 * What's a typical use case for anonymous functions? 
+	* when
 * Explain the "JavaScript module pattern" and when you'd use it. 
 	* Bonus points for mentioning clean namespacing. 
 	* What if your modules are namespace-less?  
 * how do you organize your code? (module pattern, classical inheritance?) 
 * What's the difference between host objects and native objects? 
+	* native objects are like .math object... host are document window setTimeout, location history
 * Difference between: 
 ```javascript
 function Person(){} var person = Person() var person = new Person()
